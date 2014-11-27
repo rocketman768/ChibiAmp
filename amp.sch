@@ -29,8 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:transfo-dots
 LIBS:mcus
+LIBS:transformers
 LIBS:qrpamp-cache
 EELAYER 24 0
 EELAYER END
