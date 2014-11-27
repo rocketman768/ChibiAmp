@@ -1,4 +1,4 @@
-update=Thu 27 Nov 2014 03:08:29 PM CST
+update=Thu 27 Nov 2014 03:25:31 PM CST
 last_client=eeschema
 [general]
 version=1
@@ -44,3 +44,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+LibName31=nu9j-libraries/mcus
+LibName32=nu9j-libraries/transformers
