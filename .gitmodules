@@ -1,0 +1,6 @@
+[submodule "nu9j-libraries"]
+	path = nu9j-libraries
+	url = git@github.com:rocketman768/nu9j-libraries.git
+[submodule "nu9j-footprints.pretty"]
+	path = nu9j-footprints.pretty
+	url = git@github.com:rocketman768/nu9j-footprints.pretty.git
