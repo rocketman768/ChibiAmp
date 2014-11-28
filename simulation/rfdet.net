@@ -1,0 +1,32 @@
+# RF Detector
+
+#.MODEL BAT62 D(IS=120N RS=200 N=1.04 XTI=1.8 EG=.68
+#+ CJO=.35P M=.14 VJ=.4 FC=.5 BV=40 IBV=5U TT=25P)
+
+.model BAT62 D
+
+# Input source 10Vp 3MHz
+Vin (vin 0) AC 10 sin(0 10 3e6)
+
+# Decoupling cap
+C1 (vin 1) 0.1u
+
+# DC Return Resistor
+R1 (1 0) 10k
+
+# Detector Diode
+D1 (1 2) BAT62
+
+# Charging Resistor
+R2 (2 3) 680
+
+# The RC Pair
+C2 (3 0) 0.1u
+R2 (3 0) 6.8k
+
+# Output to darlington pair
+R3 (3 4) 10k
+Vout (4 0) DC 1.4
+
+.print tran v(1) v(3) i(R3)
+.tran 0 1000u 60n > rfdet.dat

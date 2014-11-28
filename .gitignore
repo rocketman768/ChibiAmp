@@ -1,3 +1,4 @@
 doc/
+simulation/*.dat
 *.bak
 *.bck
