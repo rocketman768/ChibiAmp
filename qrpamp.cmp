@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Fri 28 Nov 2014 02:08:14 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Fri 28 Nov 2014 02:46:26 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -718,7 +718,7 @@ BeginCmp
 TimeStamp = /5470F239/54725F07;
 Reference = U4;
 ValeurCmp = STM32F401xB/C-LQFP;
-IdModule  = ;
+IdModule  = nu9j-footprints:LQFP64;
 EndCmp
 
 BeginCmp
