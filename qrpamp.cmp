@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Fri 28 Nov 2014 10:50:16 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Fri 28 Nov 2014 02:08:14 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -487,28 +487,28 @@ BeginCmp
 TimeStamp = /5470C525/5470D02C;
 Reference = R1;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C525/54788FD0;
 Reference = R2;
 ValeurCmp = 680;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C525/5477B801;
 Reference = R3;
 ValeurCmp = 6.8k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C525/5470D001;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
@@ -529,7 +529,7 @@ BeginCmp
 TimeStamp = /5470C606/5470F7C0;
 Reference = R7;
 ValeurCmp = 5k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
@@ -543,14 +543,14 @@ BeginCmp
 TimeStamp = /5470C606/5470F7FC;
 Reference = R9;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F7D4;
 Reference = R10;
 ValeurCmp = 5k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
@@ -571,7 +571,7 @@ BeginCmp
 TimeStamp = /5470C606/5470F80E;
 Reference = R13;
 ValeurCmp = 10k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
@@ -592,56 +592,56 @@ BeginCmp
 TimeStamp = /5470C606/5470F460;
 Reference = R16;
 ValeurCmp = 10;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F475;
 Reference = R17;
 ValeurCmp = 10;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/5471089B;
 Reference = R18;
 ValeurCmp = 15k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/547108A6;
 Reference = R19;
 ValeurCmp = 1k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/54710792;
 Reference = R20;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/547107A4;
 Reference = R21;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/5471087E;
 Reference = R22;
 ValeurCmp = 15k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/54710890;
 Reference = R23;
 ValeurCmp = 1k;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1206;
 EndCmp
 
 BeginCmp
