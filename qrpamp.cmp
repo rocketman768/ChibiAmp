@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 04:45:30 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 04:53:07 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -445,28 +445,28 @@ BeginCmp
 TimeStamp = /5470C525/5470D157;
 Reference = Q1;
 ValeurCmp = MMBT6427;
-IdModule  = ;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470FC2F;
 Reference = Q2;
 ValeurCmp = MMBF170;
-IdModule  = ;
+IdModule  = Transistors_SMD:sot23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F3BA;
 Reference = Q3;
 ValeurCmp = IRF510;
-IdModule  = ;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F3CC;
 Reference = Q4;
 ValeurCmp = IRF510;
-IdModule  = ;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
 EndCmp
 
 BeginCmp
