@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 04:53:07 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 04:55:51 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -501,14 +501,14 @@ BeginCmp
 TimeStamp = /5470C606/5470F3E3;
 Reference = R5;
 ValeurCmp = 300;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F3F5;
 Reference = R6;
 ValeurCmp = 18;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
@@ -522,7 +522,7 @@ BeginCmp
 TimeStamp = /5470C606/5470F400;
 Reference = R8;
 ValeurCmp = 300;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
@@ -543,14 +543,14 @@ BeginCmp
 TimeStamp = /5470C606/5470F415;
 Reference = R11;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F42B;
 Reference = R12;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
@@ -564,14 +564,14 @@ BeginCmp
 TimeStamp = /5470C606/5470F420;
 Reference = R14;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F436;
 Reference = R15;
 ValeurCmp = 51;
-IdModule  = ;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
