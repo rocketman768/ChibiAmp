@@ -1,18 +1,10 @@
-update=Thu 27 Nov 2014 03:25:31 PM CST
-last_client=eeschema
+update=Sat 29 Nov 2014 05:48:27 PM CST
+last_client=kicad
 [general]
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -46,3 +38,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=nu9j-libraries/mcus
 LibName32=nu9j-libraries/transformers
+LibName33=nu9j-libraries/relays

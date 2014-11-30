@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 05:20:25 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 06:07:21 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -288,45 +288,45 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D575;
+TimeStamp = /5470C620/547A7FD1;
 Reference = K1;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D587;
+TimeStamp = /5470C620/547A8128;
 Reference = K2;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D592;
+TimeStamp = /5470C620/547A818C;
 Reference = K3;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D5BB;
+TimeStamp = /5470C620/547A83AD;
 Reference = K4;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D97F;
+TimeStamp = /5470C620/547A834D;
 Reference = K5;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/5470D98A;
+TimeStamp = /5470C620/547A822E;
 Reference = K6;
 ValeurCmp = EC2-12NU;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
@@ -396,7 +396,7 @@ BeginCmp
 TimeStamp = /5470C5E9/5470C6D0;
 Reference = P1;
 ValeurCmp = PWR;
-IdModule  = ;
+IdModule  = nu9j-footprints:PWR2-16AWG;
 EndCmp
 
 BeginCmp
@@ -410,7 +410,7 @@ BeginCmp
 TimeStamp = /5470F239/5472469B;
 Reference = P3;
 ValeurCmp = SWD;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -430,7 +430,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5472C2F7/5472CC33;
 Reference = P6;
-ValeurCmp = CONN_2;
+ValeurCmp = PTT_IN;
 IdModule  = ;
 EndCmp
 
