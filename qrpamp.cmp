@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 06:07:21 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 10:47:41 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -290,50 +290,50 @@ EndCmp
 BeginCmp
 TimeStamp = /5470C620/547A7FD1;
 Reference = K1;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND3_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/547A8128;
 Reference = K2;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND2_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/547A818C;
 Reference = K3;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND1_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/547A83AD;
 Reference = K4;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND3_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/547A834D;
 Reference = K5;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND2_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/547A822E;
 Reference = K6;
-ValeurCmp = EC2-12NU;
+ValeurCmp = BAND1_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5472C2F7/5472C38B;
+TimeStamp = /5472C2F7/547A886B;
 Reference = K7;
 ValeurCmp = ANT_RLY;
-IdModule  = ;
+IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
