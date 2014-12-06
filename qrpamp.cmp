@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 29 Nov 2014 10:47:41 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 10:53:59 AM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /5470C5E9/5470CBC0;
 Reference = F1;
 ValeurCmp = PTS181224V150;
-IdModule  = ;
+IdModule  = SMD_Packages:SMD-1812_l;
 EndCmp
 
 BeginCmp
@@ -403,7 +403,7 @@ BeginCmp
 TimeStamp = /5470C5E9/5470C6EE;
 Reference = P2;
 ValeurCmp = PWR_SW;
-IdModule  = ;
+IdModule  = nu9j-footprints:PWR2-16AWG;
 EndCmp
 
 BeginCmp
@@ -417,21 +417,21 @@ BeginCmp
 TimeStamp = /5472C2F7/5472C37E;
 Reference = P4;
 ValeurCmp = ANT;
-IdModule  = ;
+IdModule  = nu9j-footprints:SMA-EDGE-0.375in;
 EndCmp
 
 BeginCmp
 TimeStamp = /5472C2F7/5472C36C;
 Reference = P5;
 ValeurCmp = RADIO;
-IdModule  = ;
+IdModule  = nu9j-footprints:SMA-EDGE-0.375in;
 EndCmp
 
 BeginCmp
 TimeStamp = /5472C2F7/5472CC33;
 Reference = P6;
 ValeurCmp = PTT_IN;
-IdModule  = ;
+IdModule  = nu9j-footprints:3.5MM_SWITCHCRAFT-35RASMT2AHNTRX;
 EndCmp
 
 BeginCmp
@@ -690,7 +690,7 @@ BeginCmp
 TimeStamp = /5470F239/54725AD2;
 Reference = U3;
 ValeurCmp = LCD-2x16;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
