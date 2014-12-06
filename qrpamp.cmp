@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 10:53:59 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 11:11:20 AM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -435,6 +435,13 @@ IdModule  = nu9j-footprints:3.5MM_SWITCHCRAFT-35RASMT2AHNTRX;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470F239/54833D53;
+Reference = P7;
+ValeurCmp = Thumb-Joystick;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470C525/5470D157;
 Reference = Q1;
 ValeurCmp = MMBT6427;
@@ -698,13 +705,6 @@ TimeStamp = /5470F239/54725F07;
 Reference = U4;
 ValeurCmp = STM32F401xB/C-LQFP;
 IdModule  = nu9j-footprints:LQFP64;
-EndCmp
-
-BeginCmp
-TimeStamp = /5470F239/54725DA4;
-Reference = U5;
-ValeurCmp = Thumb-Joystick;
-IdModule  = ;
 EndCmp
 
 EndListe
