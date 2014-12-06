@@ -204,4 +204,6 @@ F 3 "" H 6350 3700 60  0000 C CNN
 	1    6350 3700
 	1    0    0    -1  
 $EndComp
+Text Notes 3050 3600 0    60   ~ 0
+SMA Connectors: Johnson 142-0701-801
 $EndSCHEMATC
