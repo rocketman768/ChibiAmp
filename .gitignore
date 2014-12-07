@@ -2,4 +2,5 @@ doc/
 simulation/*.dat
 $*.sch
 *.bak
+*-bak
 *.bck

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 10:45:55 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 07 Dec 2014 07:31:34 AM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -253,6 +253,27 @@ IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470F239/54845A82;
+Reference = C37;
+ValeurCmp = .1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470F239/54845340;
+Reference = C38;
+ValeurCmp = .01u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470F239/548452A0;
+Reference = C39;
+ValeurCmp = 1u;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470C525/5470CFD9;
 Reference = D1;
 ValeurCmp = SD101;
@@ -390,6 +411,13 @@ TimeStamp = /5470C620/5470D70F;
 Reference = L8;
 ValeurCmp = T50-2 12T;
 IdModule  = nu9j-footprints:TOROID-50;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C5E9/548467CE;
+Reference = L9;
+ValeurCmp = BEAD;
+IdModule  = nu9j-footprints:WE-SUCKW;
 EndCmp
 
 BeginCmp
@@ -642,6 +670,13 @@ TimeStamp = /5470C606/5470F7B3;
 Reference = RV2;
 ValeurCmp = 5k;
 IdModule  = nu9j-footprints:Potentiometer_Trimmer_Piher_PT10_H01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470F239/54845BBA;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
