@@ -53,7 +53,7 @@ U 1 1 547106DF
 P 5150 2950
 F 0 "T4" H 5150 3200 70  0000 C CNN
 F 1 "12:1" H 5150 2650 70  0000 C CNN
-F 2 "nu9j-footprints:TOROID-50" H 5150 2950 60  0001 C CNN
+F 2 "nu9j-footprints:TOROID2-50-singleturn" H 5150 2950 60  0001 C CNN
 F 3 "" H 5150 2950 60  0000 C CNN
 	1    5150 2950
 	0    -1   1    0   
@@ -64,10 +64,10 @@ U 1 1 547106F1
 P 5150 4050
 F 0 "T5" H 5150 4300 70  0000 C CNN
 F 1 "1:12" H 5150 3750 70  0000 C CNN
-F 2 "nu9j-footprints:TOROID-50" H 5150 4050 60  0001 C CNN
+F 2 "nu9j-footprints:TOROID2-50-singleturn" H 5150 4050 60  0001 C CNN
 F 3 "" H 5150 4050 60  0000 C CNN
 	1    5150 4050
-	0    -1   1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	4950 2550 4600 2550

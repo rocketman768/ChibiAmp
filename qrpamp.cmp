@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 11:43:40 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 06 Dec 2014 10:45:55 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -452,7 +452,7 @@ BeginCmp
 TimeStamp = /5470C606/5470FC2F;
 Reference = Q2;
 ValeurCmp = MMBF170;
-IdModule  = Transistors_SMD:sot23;
+IdModule  = nu9j-footprints:sot23-DGS;
 EndCmp
 
 BeginCmp
@@ -669,28 +669,28 @@ BeginCmp
 TimeStamp = /5470C635/547106DF;
 Reference = T4;
 ValeurCmp = 12:1;
-IdModule  = nu9j-footprints:TOROID-50;
+IdModule  = nu9j-footprints:TOROID2-50-singleturn;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C635/547106F1;
 Reference = T5;
 ValeurCmp = 1:12;
-IdModule  = nu9j-footprints:TOROID-50;
+IdModule  = nu9j-footprints:TOROID2-50-singleturn;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/5470CAF8;
 Reference = U1;
 ValeurCmp = LM7805;
-IdModule  = SMD_Packages:DPAK-2;
+IdModule  = nu9j-footprints:DPAK-3_VIVOGND;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/5470CB80;
 Reference = U2;
 ValeurCmp = LM3940;
-IdModule  = SMD_Packages:TO-263;
+IdModule  = nu9j-footprints:TO-263_VIVOGND;
 EndCmp
 
 BeginCmp
