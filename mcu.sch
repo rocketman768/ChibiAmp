@@ -113,17 +113,6 @@ F 3 "" H 6200 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C32
-U 1 1 547253CC
-P 6450 1600
-F 0 "C32" H 6450 1700 40  0000 L CNN
-F 1 ".1u" H 6456 1515 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6488 1450 30  0001 C CNN
-F 3 "" H 6450 1600 60  0000 C CNN
-	1    6450 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C33
 U 1 1 547253DE
 P 6650 1600
@@ -240,11 +229,9 @@ Wire Wire Line
 Wire Wire Line
 	6200 1800 6850 1800
 Connection ~ 6650 1800
-Connection ~ 6450 1800
 Wire Wire Line
 	5950 1400 6850 1400
 Connection ~ 6650 1400
-Connection ~ 6450 1400
 Wire Wire Line
 	5950 1400 5950 1700
 Connection ~ 6200 1400
@@ -270,11 +257,11 @@ Wire Wire Line
 	4150 3900 4200 3900
 Wire Wire Line
 	4200 3900 4200 4100
-Text HLabel 6500 2400 2    60   Output ~ 0
+Text HLabel 6500 2600 2    60   Output ~ 0
 mcu_band1
 Text HLabel 6500 2500 2    60   Output ~ 0
 mcu_band2
-Text HLabel 6500 2600 2    60   Output ~ 0
+Text HLabel 6500 2400 2    60   Output ~ 0
 mcu_band3
 Wire Wire Line
 	6450 2400 6500 2400
@@ -282,25 +269,21 @@ Wire Wire Line
 	6500 2500 6450 2500
 Wire Wire Line
 	6450 2600 6500 2600
-Text HLabel 6500 2800 2    60   Input ~ 0
+Text HLabel 6500 5300 2    60   Input ~ 0
 mcu_rfdet
-Wire Wire Line
-	6450 2800 6500 2800
-Text HLabel 6500 2900 2    60   Input ~ 0
+Text HLabel 4850 3100 0    60   Input ~ 0
 mcu_ptt
-Wire Wire Line
-	6500 2900 6450 2900
-Text HLabel 6500 3000 2    60   Input ~ 0
-mcu_swr_fwd
 Text HLabel 6500 3100 2    60   Input ~ 0
+mcu_swr_fwd
+Text HLabel 6500 3000 2    60   Input ~ 0
 mcu_swr_ref
 Wire Wire Line
 	6450 3000 6500 3000
 Wire Wire Line
 	6500 3100 6450 3100
-Text HLabel 6500 3200 2    60   Output ~ 0
-mcu_ant_sw
 Text HLabel 6500 3300 2    60   Output ~ 0
+mcu_ant_sw
+Text HLabel 6500 3200 2    60   Output ~ 0
 mcu_amp_pwr_sw
 Wire Wire Line
 	6500 3200 6450 3200
@@ -514,4 +497,8 @@ F 3 "" H 800 900 60  0000 C CNN
 	1    800  900 
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4900 3100 4850 3100
+Wire Wire Line
+	6450 5300 6500 5300
 $EndSCHEMATC

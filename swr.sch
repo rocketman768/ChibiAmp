@@ -313,4 +313,6 @@ Text HLabel 4050 4950 0    60   Input ~ 0
 swr_fwd
 Text Notes 6450 5750 2    60   ~ 0
 Output divided by 16 so output is always below 3.3v.
+Connection ~ 5450 4450
+Connection ~ 4850 4450
 $EndSCHEMATC

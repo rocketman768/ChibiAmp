@@ -193,17 +193,17 @@ Wire Wire Line
 	6150 2500 6250 2500
 Text HLabel 6250 2500 2    60   Output ~ 0
 ptt
+Text Notes 3050 3600 0    60   ~ 0
+SMA Connectors: Johnson 142-0701-801
 $Comp
-L RELAY_2RT K7
-U 1 1 547A886B
+L RELAY_2RT-KEMET K7
+U 1 1 54849E97
 P 6350 3700
 F 0 "K7" H 6300 4100 70  0000 C CNN
 F 1 "ANT_RLY" H 6500 3200 70  0000 C CNN
-F 2 "nu9j-footprints:EC2-12NU" H 6350 3700 60  0001 C CNN
+F 2 "" H 6350 3700 60  0000 C CNN
 F 3 "" H 6350 3700 60  0000 C CNN
 	1    6350 3700
 	1    0    0    -1  
 $EndComp
-Text Notes 3050 3600 0    60   ~ 0
-SMA Connectors: Johnson 142-0701-801
 $EndSCHEMATC
