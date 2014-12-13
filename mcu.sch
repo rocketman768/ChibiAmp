@@ -91,28 +91,6 @@ Entry Wire Line
 Text Label 6450 2700 0    60   ~ 0
 SWO
 $Comp
-L CP1 C30
-U 1 1 54725387
-P 5350 1500
-F 0 "C30" H 5400 1600 50  0000 L CNN
-F 1 "4.7u" H 5400 1400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:Capacitor5x11RM2.5" H 5350 1500 60  0001 C CNN
-F 3 "" H 5350 1500 60  0000 C CNN
-	1    5350 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L CP1 C31
-U 1 1 547253BF
-P 6200 1600
-F 0 "C31" H 6250 1700 50  0000 L CNN
-F 1 "4.7u" H 6250 1500 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:Capacitor5x11RM2.5" H 6200 1600 60  0001 C CNN
-F 3 "" H 6200 1600 60  0000 C CNN
-	1    6200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C33
 U 1 1 547253DE
 P 6650 1600
@@ -233,10 +211,10 @@ Wire Wire Line
 	5950 1400 6850 1400
 Connection ~ 6650 1400
 Wire Wire Line
-	5950 1400 5950 1700
+	5950 1700 5950 1400
 Connection ~ 6200 1400
 Wire Wire Line
-	4900 5250 4900 5350
+	4900 4950 4900 5350
 Wire Wire Line
 	4050 1600 4200 1600
 Wire Wire Line
@@ -501,4 +479,33 @@ Wire Wire Line
 	4900 3100 4850 3100
 Wire Wire Line
 	6450 5300 6500 5300
+Connection ~ 4900 5050
+Connection ~ 4900 5250
+Connection ~ 4900 5150
+Wire Wire Line
+	5650 1700 5950 1700
+Connection ~ 5750 1700
+Connection ~ 5850 1700
+$Comp
+L C C31
+U 1 1 548C5B39
+P 6200 1600
+F 0 "C31" H 6200 1700 40  0000 L CNN
+F 1 "4.7u" H 6206 1515 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6238 1450 30  0001 C CNN
+F 3 "" H 6200 1600 60  0000 C CNN
+	1    6200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C30
+U 1 1 548C5F55
+P 5350 1500
+F 0 "C30" H 5350 1600 40  0000 L CNN
+F 1 "4.7u" H 5356 1415 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5388 1350 30  0001 C CNN
+F 3 "" H 5350 1500 60  0000 C CNN
+	1    5350 1500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

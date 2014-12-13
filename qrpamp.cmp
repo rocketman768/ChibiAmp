@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 07 Dec 2014 07:31:34 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 13 Dec 2014 08:41:10 AM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -204,23 +204,16 @@ IdModule  = Discret:C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470F239/54725387;
+TimeStamp = /5470F239/548C5F55;
 Reference = C30;
 ValeurCmp = 4.7u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470F239/547253BF;
+TimeStamp = /5470F239/548C5B39;
 Reference = C31;
 ValeurCmp = 4.7u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
-EndCmp
-
-BeginCmp
-TimeStamp = /5470F239/547253CC;
-Reference = C32;
-ValeurCmp = .1u;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
@@ -309,49 +302,49 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A7FD1;
+TimeStamp = /5470C620/54848992;
 Reference = K1;
 ValeurCmp = BAND3_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A8128;
+TimeStamp = /5470C620/548489DD;
 Reference = K2;
 ValeurCmp = BAND2_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A818C;
+TimeStamp = /5470C620/54848A30;
 Reference = K3;
 ValeurCmp = BAND1_IN;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A83AD;
+TimeStamp = /5470C620/54849468;
 Reference = K4;
 ValeurCmp = BAND3_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A834D;
+TimeStamp = /5470C620/548494DE;
 Reference = K5;
 ValeurCmp = BAND2_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C620/547A822E;
+TimeStamp = /5470C620/54848AAA;
 Reference = K6;
 ValeurCmp = BAND1_OUT;
 IdModule  = nu9j-footprints:EC2-12NU;
 EndCmp
 
 BeginCmp
-TimeStamp = /5472C2F7/547A886B;
+TimeStamp = /5472C2F7/54849E97;
 Reference = K7;
 ValeurCmp = ANT_RLY;
 IdModule  = nu9j-footprints:EC2-12NU;
