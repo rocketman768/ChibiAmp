@@ -203,25 +203,19 @@ Wire Wire Line
 	4150 4250 4200 4250
 Wire Wire Line
 	4200 4250 4200 4450
-Text HLabel 6500 2550 2    60   Output ~ 0
+Text HLabel 6500 3550 2    60   Output ~ 0
 mcu_band1
-Text HLabel 6500 2450 2    60   Output ~ 0
+Text HLabel 6500 3450 2    60   Output ~ 0
 mcu_band2
-Text HLabel 6500 2350 2    60   Output ~ 0
+Text HLabel 6500 3350 2    60   Output ~ 0
 mcu_band3
-Wire Wire Line
-	6450 2350 6500 2350
-Wire Wire Line
-	6500 2450 6450 2450
-Wire Wire Line
-	6450 2550 6500 2550
 Text HLabel 6500 5050 2    60   Input ~ 0
 mcu_rfdet
 Text HLabel 4850 3450 0    60   Input ~ 0
 mcu_ptt
-Text HLabel 6500 2950 2    60   Input ~ 0
+Text HLabel 7000 2950 2    60   Input ~ 0
 mcu_swr_fwd
-Text HLabel 6500 2850 2    60   Input ~ 0
+Text HLabel 7000 2850 2    60   Input ~ 0
 mcu_swr_ref
 Wire Wire Line
 	6450 2850 6500 2850
@@ -505,4 +499,32 @@ Text Label 4600 2550 0    60   ~ 0
 SWDIO
 Text Label 4600 2650 0    60   ~ 0
 SWCLK
+$Comp
+L R R24
+U 1 1 548C7F6B
+P 6750 2850
+F 0 "R24" V 6830 2850 40  0000 C CNN
+F 1 "50k" V 6757 2851 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6680 2850 30  0001 C CNN
+F 3 "" H 6750 2850 30  0000 C CNN
+	1    6750 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R25
+U 1 1 548C7FD3
+P 6750 2950
+F 0 "R25" V 6830 2950 40  0000 C CNN
+F 1 "50k" V 6757 2951 40  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 6680 2950 30  0001 C CNN
+F 3 "" H 6750 2950 30  0000 C CNN
+	1    6750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 3350 6500 3350
+Wire Wire Line
+	6500 3450 6450 3450
+Wire Wire Line
+	6450 3550 6500 3550
 $EndSCHEMATC
