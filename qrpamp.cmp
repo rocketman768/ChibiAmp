@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 13 Dec 2014 11:17:48 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 24 Jan 2015 03:45:32 PM CST
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -456,10 +456,17 @@ IdModule  = nu9j-footprints:3.5MM_SWITCHCRAFT-35RASMT2AHNTRX;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470F239/54833D53;
+TimeStamp = /5470F239/54C3F60F;
 Reference = P7;
-ValeurCmp = Thumb-Joystick;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x05;
+ValeurCmp = TP;
+IdModule  = Measurement_Points:Measurement_Point_Round-SMD-Pad_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470F239/54C3FB48;
+Reference = P8;
+ValeurCmp = NAV_BUTTON;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
@@ -488,6 +495,34 @@ TimeStamp = /5470C606/5470F3CC;
 Reference = Q4;
 ValeurCmp = IRF510;
 IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /5472C2F7/54C4737E;
+Reference = Q6;
+ValeurCmp = MMBF170;
+IdModule  = nu9j-footprints:sot23-DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C620/54C46126;
+Reference = Q9;
+ValeurCmp = MMBF170;
+IdModule  = nu9j-footprints:sot23-DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C620/54C4649F;
+Reference = Q10;
+ValeurCmp = MMBF170;
+IdModule  = nu9j-footprints:sot23-DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C620/54C46512;
+Reference = Q11;
+ValeurCmp = MMBF170;
+IdModule  = nu9j-footprints:sot23-DGS;
 EndCmp
 
 BeginCmp
@@ -666,6 +701,13 @@ IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470F239/54C3F323;
+Reference = R26;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470C606/5470F7A1;
 Reference = RV1;
 ValeurCmp = 5k;
@@ -732,7 +774,7 @@ BeginCmp
 TimeStamp = /5470C5E9/5470CB80;
 Reference = U2;
 ValeurCmp = LM3940;
-IdModule  = nu9j-footprints:TO-263_VIVOGND;
+IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
 BeginCmp

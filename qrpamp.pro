@@ -1,4 +1,4 @@
-update=Sat 29 Nov 2014 05:48:27 PM CST
+update=Sat 24 Jan 2015 02:08:28 PM CST
 last_client=kicad
 [general]
 version=1
@@ -39,3 +39,23 @@ LibName30=valves
 LibName31=nu9j-libraries/mcus
 LibName32=nu9j-libraries/transformers
 LibName33=nu9j-libraries/relays
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=2.99974
+PadSizeV=5.99948
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1.5
+ModuleTextSizeH=1.5
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15
