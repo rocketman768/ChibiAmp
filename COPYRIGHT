@@ -1,10 +1,32 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
 Files: *
-Copyright: 2014, Philip G. Lee <rocketman768@gmail.com>
+Copyright: 2014-2015, Philip G. Lee <rocketman768@gmail.com>
+License: TAPR-OHL
+
+Files: COPYING.TAPR-OHL
+Copyright: Copyright 2007 TAPR - http://www.tapr.org/OHL
+License: TAPR-OHL-COPY-USE-NOCHANGE
+    You are free to copy and use this document provided only that you do not
+    change it.
+
+Files: COPYING.GPLv3
+Copyright: Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
+License: GPL-3-COPY-DIST-NOCHANGE
+    Everyone is permitted to copy and distribute verbatim copies
+    of this license document, but changing it is not allowed.
+
+Files: README.md simulation/*
+Copyright: 2014-2015, Philip G. Lee <rocketman768@gmail.com>
 License: GPL-3
 
 Files: bom2csv.xsl
 Copyright: 2013, Stefan Helmert
 License: GPL-2
+
+License: TAPR-OHL
+    Licensed under the TAPR Open Hardware License version 1.0
+    (www.tapr.org/OHL)
 
 License: GPL-2
     This program is free software; you can redistribute it and/or
