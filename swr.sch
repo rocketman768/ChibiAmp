@@ -237,82 +237,16 @@ F 3 "" H 6050 4050 60  0000 C CNN
 	1    6050 4050
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R22
-U 1 1 5471087E
-P 6050 4700
-F 0 "R22" V 6130 4700 40  0000 C CNN
-F 1 "15k" V 6057 4701 40  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5980 4700 30  0001 C CNN
-F 3 "" H 6050 4700 30  0000 C CNN
-	1    6050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R23
-U 1 1 54710890
-P 6050 5200
-F 0 "R23" V 6130 5200 40  0000 C CNN
-F 1 "1k" V 6057 5201 40  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 5980 5200 30  0001 C CNN
-F 3 "" H 6050 5200 30  0000 C CNN
-	1    6050 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R18
-U 1 1 5471089B
-P 4250 4700
-F 0 "R18" V 4330 4700 40  0000 C CNN
-F 1 "15k" V 4257 4701 40  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 4700 30  0001 C CNN
-F 3 "" H 4250 4700 30  0000 C CNN
-	1    4250 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R19
-U 1 1 547108A6
-P 4250 5200
-F 0 "R19" V 4330 5200 40  0000 C CNN
-F 1 "1k" V 4257 5201 40  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" V 4180 5200 30  0001 C CNN
-F 3 "" H 4250 5200 30  0000 C CNN
-	1    4250 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR099
-U 1 1 547108D1
-P 4250 5450
-F 0 "#PWR099" H 4250 5450 30  0001 C CNN
-F 1 "GND" H 4250 5380 30  0001 C CNN
-F 2 "" H 4250 5450 60  0000 C CNN
-F 3 "" H 4250 5450 60  0000 C CNN
-	1    4250 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR0100
-U 1 1 547108E5
-P 6050 5450
-F 0 "#PWR0100" H 6050 5450 30  0001 C CNN
-F 1 "GND" H 6050 5380 30  0001 C CNN
-F 2 "" H 6050 5450 60  0000 C CNN
-F 3 "" H 6050 5450 60  0000 C CNN
-	1    6050 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6050 4950 6250 4950
+	4250 4450 4050 4450
 Wire Wire Line
-	4250 4950 4050 4950
-Text HLabel 6250 4950 2    60   Input ~ 0
+	6050 4450 6250 4450
+Text HLabel 4050 4450 0    60   Input ~ 0
 swr_ref
-Text HLabel 4050 4950 0    60   Input ~ 0
+Text HLabel 6250 4450 2    60   Input ~ 0
 swr_fwd
-Text Notes 6450 5750 2    60   ~ 0
-Output divided by 16 so output is always below 3.3v.
+Text Notes 6100 5350 2    60   ~ 0
+Line voltages divided by 12 so output\nis always below 3.3v for power < 30W.
 Connection ~ 5450 4450
 Connection ~ 4850 4450
 $EndSCHEMATC
