@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 08 Mar 2015 11:42:20 AM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 08 Mar 2015 12:50:17 PM CDT
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -470,10 +470,10 @@ IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C525/5470D157;
+TimeStamp = /5470C525/54FC9320;
 Reference = Q1;
 ValeurCmp = MMBT6427;
-IdModule  = Transistors_SMD:sot23;
+IdModule  = nu9j-footprints:SOT-23-EBC_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -645,20 +645,6 @@ IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C635/5471089B;
-Reference = R18;
-ValeurCmp = 15k;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5470C635/547108A6;
-Reference = R19;
-ValeurCmp = 1k;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /5470C635/54710792;
 Reference = R20;
 ValeurCmp = 51;
@@ -669,20 +655,6 @@ BeginCmp
 TimeStamp = /5470C635/547107A4;
 Reference = R21;
 ValeurCmp = 51;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5470C635/5471087E;
-Reference = R22;
-ValeurCmp = 15k;
-IdModule  = Resistors_SMD:R_1206_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /5470C635/54710890;
-Reference = R23;
-ValeurCmp = 1k;
 IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 

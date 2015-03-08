@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:mcus
 LIBS:transformers
 LIBS:relays
+LIBS:nu9j-transistors
 LIBS:qrpamp-cache
 EELAYER 25 0
 EELAYER END
@@ -124,17 +125,6 @@ Wire Wire Line
 	4600 4200 4600 4300
 Wire Wire Line
 	4100 3700 3900 3700
-$Comp
-L DARL_N Q1
-U 1 1 5470D157
-P 6950 3750
-F 0 "Q1" H 6950 4000 50  0000 C CNN
-F 1 "MMBT6427" H 6750 3650 50  0000 C CNN
-F 2 "Transistors_SMD:sot23" H 6950 3750 60  0001 C CNN
-F 3 "" H 6950 3750 60  0000 C CNN
-	1    6950 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 3700 6050 3700
 Wire Wire Line
@@ -205,5 +195,16 @@ F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 3750 30  0001 C CNN
 F 3 "" H 5700 3900 60  0000 C CNN
 	1    5700 3900
 	-1   0    0    1   
+$EndComp
+$Comp
+L NU9J_DARL_N Q1
+U 1 1 54FC9320
+P 6950 3750
+F 0 "Q1" H 6950 4000 50  0000 C CNN
+F 1 "MMBT6427" H 6750 3650 50  0000 C CNN
+F 2 "" H 6950 3750 60  0000 C CNN
+F 3 "" H 6950 3750 60  0000 C CNN
+	1    6950 3750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

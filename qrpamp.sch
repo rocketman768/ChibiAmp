@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:mcus
 LIBS:transformers
 LIBS:relays
+LIBS:nu9j-transistors
 LIBS:qrpamp-cache
 EELAYER 25 0
 EELAYER END
