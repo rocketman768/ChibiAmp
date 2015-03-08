@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 08 Mar 2015 12:50:17 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 08 Mar 2015 01:12:26 PM CDT
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -480,7 +480,7 @@ BeginCmp
 TimeStamp = /5470C606/5470FC2F;
 Reference = Q2;
 ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:sot23-DGS;
+IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -501,28 +501,28 @@ BeginCmp
 TimeStamp = /5472C2F7/54C4737E;
 Reference = Q6;
 ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:sot23-DGS;
+IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/54C46126;
 Reference = Q9;
 ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:sot23-DGS;
+IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/54C4649F;
 Reference = Q10;
 ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:sot23-DGS;
+IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C620/54C46512;
 Reference = Q11;
 ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:sot23-DGS;
+IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
 EndCmp
 
 BeginCmp
