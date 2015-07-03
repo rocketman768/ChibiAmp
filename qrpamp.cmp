@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 08 Mar 2015 01:12:26 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Fri 03 Jul 2015 03:03:56 PM CDT
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -295,13 +295,6 @@ IdModule  = SMD_Packages:SMD-1812_l;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C606/5470FBEE;
-Reference = JP1;
-ValeurCmp = AMP_BAL;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
-EndCmp
-
-BeginCmp
 TimeStamp = /5470C620/54848992;
 Reference = K1;
 ValeurCmp = BAND3_IN;
@@ -477,13 +470,6 @@ IdModule  = nu9j-footprints:SOT-23-EBC_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /5470C606/5470FC2F;
-Reference = Q2;
-ValeurCmp = MMBF170;
-IdModule  = nu9j-footprints:SOT-23-DGS_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /5470C606/5470F3BA;
 Reference = Q3;
 ValeurCmp = IRF510;
@@ -645,6 +631,13 @@ IdModule  = Resistors_SMD:R_1206_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470C606/55970003;
+Reference = R18;
+ValeurCmp = 150;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470C635/54710792;
 Reference = R20;
 ValeurCmp = 51;
@@ -761,6 +754,13 @@ TimeStamp = /5470F239/54725F07;
 Reference = U4;
 ValeurCmp = STM32F401xB/C-LQFP;
 IdModule  = nu9j-footprints:LQFP64;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C606/5596F157;
+Reference = U5;
+ValeurCmp = LTV-356T;
+IdModule  = Opto-Devices:Optocoupler_SMD_HandSoldering_KPC357_LTV35x_PC357_SingleChannel;
 EndCmp
 
 EndListe
