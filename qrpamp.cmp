@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Fri 03 Jul 2015 03:03:56 PM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 04 Jul 2015 11:38:02 AM CDT
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -25,35 +25,35 @@ BeginCmp
 TimeStamp = /5470C5E9/5470C7F4;
 Reference = C4;
 ValeurCmp = 10u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/5470C806;
 Reference = C5;
 ValeurCmp = 10u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/547897A6;
 Reference = C6;
 ValeurCmp = 10u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/547897B1;
 Reference = C7;
 ValeurCmp = 10u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C5E9/547897BC;
 Reference = C8;
 ValeurCmp = 10u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
 EndCmp
 
 BeginCmp
@@ -218,6 +218,13 @@ IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470C5E9/5597EAB5;
+Reference = C32;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470F239/547253DE;
 Reference = C33;
 ValeurCmp = .1u;
@@ -267,6 +274,34 @@ IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
 EndCmp
 
 BeginCmp
+TimeStamp = /5470C5E9/5597EABB;
+Reference = C40;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C5E9/5597EACF;
+Reference = C41;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C5E9/5597EAD5;
+Reference = C42;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5470C5E9/5597EADB;
+Reference = C43;
+ValeurCmp = 10u;
+IdModule  = Capacitors_ThroughHole:C_Radial_D5_L11_P2.5;
+EndCmp
+
+BeginCmp
 TimeStamp = /5470C525/5470CFD9;
 Reference = D1;
 ValeurCmp = SD101;
@@ -290,7 +325,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5470C5E9/5470CBC0;
 Reference = F1;
-ValeurCmp = PTS181224V150;
+ValeurCmp = PTS18128V200;
 IdModule  = SMD_Packages:SMD-1812_l;
 EndCmp
 
@@ -473,14 +508,14 @@ BeginCmp
 TimeStamp = /5470C606/5470F3BA;
 Reference = Q3;
 ValeurCmp = IRF510;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Horizontal_MountedFromLS_LargePads;
 EndCmp
 
 BeginCmp
 TimeStamp = /5470C606/5470F3CC;
 Reference = Q4;
 ValeurCmp = IRF510;
-IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical_LargePads;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Horizontal_MountedFromLS_LargePads;
 EndCmp
 
 BeginCmp
