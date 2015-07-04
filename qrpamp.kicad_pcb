@@ -72,7 +72,7 @@
     (grid_origin 75.184 29.718)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x000f0_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
