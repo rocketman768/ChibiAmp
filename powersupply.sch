@@ -39,13 +39,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 8
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
+Title "ChibiOS 10W HF Amp"
+Date "04 Jul 2015"
+Rev "1.1"
+Comp "NU9J - Dr. Philip G. Lee"
+Comment1 "v1.0 (www.tapr.org/OHL)"
+Comment2 "Licensed under the TAPR Open Hardware License"
+Comment3 "Copyright 2015, Philip G. Lee"
 Comment4 ""
 $EndDescr
 $Comp
