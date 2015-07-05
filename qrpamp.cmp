@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sat 04 Jul 2015 11:38:02 AM CDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-29 BZR 5307)-product   date = Sun 05 Jul 2015 12:56:16 PM CDT
 
 BeginCmp
 TimeStamp = /5470C525/5470CFC5;
@@ -270,7 +270,7 @@ BeginCmp
 TimeStamp = /5470F239/548452A0;
 Reference = C39;
 ValeurCmp = 1u;
-IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
