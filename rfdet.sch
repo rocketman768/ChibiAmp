@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:qrpamp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -49,9 +50,11 @@ Comment3 "Copyright 2015, Philip G. Lee"
 Comment4 ""
 $EndDescr
 $Comp
-L C C1
+L C-RESCUE-qrpamp C1
 U 1 1 5470CFC5
 P 4300 3700
+AR Path="/5470CFC5" Ref="C1"  Part="1" 
+AR Path="/5470C525/5470CFC5" Ref="C1"  Part="1" 
 F 0 "C1" H 4300 3800 40  0000 L CNN
 F 1 ".1u" H 4306 3615 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4338 3550 30  0001 C CNN
@@ -71,9 +74,11 @@ F 3 "" H 4900 3700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L R-RESCUE-qrpamp R4
 U 1 1 5470D001
 P 6300 3700
+AR Path="/5470D001" Ref="R4"  Part="1" 
+AR Path="/5470C525/5470D001" Ref="R4"  Part="1" 
 F 0 "R4" V 6380 3700 40  0000 C CNN
 F 1 "10k" V 6307 3701 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6230 3700 30  0001 C CNN
@@ -82,9 +87,11 @@ F 3 "" H 6300 3700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-qrpamp R1
 U 1 1 5470D02C
 P 4600 3950
+AR Path="/5470D02C" Ref="R1"  Part="1" 
+AR Path="/5470C525/5470D02C" Ref="R1"  Part="1" 
 F 0 "R1" V 4680 3950 40  0000 C CNN
 F 1 "10k" V 4607 3951 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 4530 3950 30  0001 C CNN
@@ -93,9 +100,11 @@ F 3 "" H 4600 3950 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L GND-RESCUE-qrpamp #PWR017
 U 1 1 5470D04B
 P 5700 4300
+AR Path="/5470D04B" Ref="#PWR017"  Part="1" 
+AR Path="/5470C525/5470D04B" Ref="#PWR017"  Part="1" 
 F 0 "#PWR017" H 5700 4300 30  0001 C CNN
 F 1 "GND" H 5700 4230 30  0001 C CNN
 F 2 "" H 5700 4300 60  0000 C CNN
@@ -104,9 +113,11 @@ F 3 "" H 5700 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L GND-RESCUE-qrpamp #PWR018
 U 1 1 5470D056
 P 4600 4300
+AR Path="/5470D056" Ref="#PWR018"  Part="1" 
+AR Path="/5470C525/5470D056" Ref="#PWR018"  Part="1" 
 F 0 "#PWR018" H 4600 4300 30  0001 C CNN
 F 1 "GND" H 4600 4230 30  0001 C CNN
 F 2 "" H 4600 4300 60  0000 C CNN
@@ -130,9 +141,11 @@ Wire Wire Line
 Wire Wire Line
 	6550 3700 6700 3700
 $Comp
-L GND #PWR019
+L GND-RESCUE-qrpamp #PWR019
 U 1 1 5470D254
 P 7200 4300
+AR Path="/5470D254" Ref="#PWR019"  Part="1" 
+AR Path="/5470C525/5470D254" Ref="#PWR019"  Part="1" 
 F 0 "#PWR019" H 7200 4300 30  0001 C CNN
 F 1 "GND" H 7200 4230 30  0001 C CNN
 F 2 "" H 7200 4300 60  0000 C CNN
@@ -151,9 +164,11 @@ rfdet_in
 Text HLabel 4600 4200 0    60   Input ~ 0
 rfdet_gnd
 $Comp
-L R R3
+L R-RESCUE-qrpamp R3
 U 1 1 5477B801
 P 6050 3950
+AR Path="/5477B801" Ref="R3"  Part="1" 
+AR Path="/5470C525/5477B801" Ref="R3"  Part="1" 
 F 0 "R3" V 6130 3950 40  0000 C CNN
 F 1 "6.8k" V 6057 3951 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5980 3950 30  0001 C CNN
@@ -162,9 +177,11 @@ F 3 "" H 6050 3950 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR020
+L GND-RESCUE-qrpamp #PWR020
 U 1 1 5477B80C
 P 6050 4300
+AR Path="/5477B80C" Ref="#PWR020"  Part="1" 
+AR Path="/5470C525/5477B80C" Ref="#PWR020"  Part="1" 
 F 0 "#PWR020" H 6050 4300 30  0001 C CNN
 F 1 "GND" H 6050 4230 30  0001 C CNN
 F 2 "" H 6050 4300 60  0000 C CNN
@@ -175,9 +192,11 @@ $EndComp
 Wire Wire Line
 	6050 4200 6050 4300
 $Comp
-L R R2
+L R-RESCUE-qrpamp R2
 U 1 1 54788FD0
 P 5350 3700
+AR Path="/54788FD0" Ref="R2"  Part="1" 
+AR Path="/5470C525/54788FD0" Ref="R2"  Part="1" 
 F 0 "R2" V 5430 3700 40  0000 C CNN
 F 1 "680" V 5357 3701 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 5280 3700 30  0001 C CNN
@@ -186,9 +205,11 @@ F 3 "" H 5350 3700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-qrpamp C2
 U 1 1 54788FE2
 P 5700 3900
+AR Path="/54788FE2" Ref="C2"  Part="1" 
+AR Path="/5470C525/54788FE2" Ref="C2"  Part="1" 
 F 0 "C2" H 5700 4000 40  0000 L CNN
 F 1 ".1u" H 5706 3815 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 3750 30  0001 C CNN

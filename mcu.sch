@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:qrpamp-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -76,9 +77,11 @@ NRST
 Text Label 4050 1300 0    60   ~ 0
 SWO
 $Comp
-L C C33
+L C-RESCUE-qrpamp C33
 U 1 1 547253DE
 P 6650 1600
+AR Path="/547253DE" Ref="C33"  Part="1" 
+AR Path="/5470F239/547253DE" Ref="C33"  Part="1" 
 F 0 "C33" H 6650 1700 40  0000 L CNN
 F 1 ".1u" H 6656 1515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6688 1450 30  0001 C CNN
@@ -87,9 +90,11 @@ F 3 "" H 6650 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C34
+L C-RESCUE-qrpamp C34
 U 1 1 547253E9
 P 6850 1600
+AR Path="/547253E9" Ref="C34"  Part="1" 
+AR Path="/5470F239/547253E9" Ref="C34"  Part="1" 
 F 0 "C34" H 6850 1700 40  0000 L CNN
 F 1 ".1u" H 6856 1515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6888 1450 30  0001 C CNN
@@ -98,9 +103,11 @@ F 3 "" H 6850 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR083
+L +3.3V-RESCUE-qrpamp #PWR083
 U 1 1 547254E1
 P 5950 1400
+AR Path="/547254E1" Ref="#PWR083"  Part="1" 
+AR Path="/5470F239/547254E1" Ref="#PWR083"  Part="1" 
 F 0 "#PWR083" H 5950 1360 30  0001 C CNN
 F 1 "+3.3V" H 5950 1510 30  0000 C CNN
 F 2 "" H 5950 1400 60  0000 C CNN
@@ -109,9 +116,11 @@ F 3 "" H 5950 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR084
+L +3.3V-RESCUE-qrpamp #PWR084
 U 1 1 547254F3
 P 4050 1800
+AR Path="/547254F3" Ref="#PWR084"  Part="1" 
+AR Path="/5470F239/547254F3" Ref="#PWR084"  Part="1" 
 F 0 "#PWR084" H 4050 1760 30  0001 C CNN
 F 1 "+3.3V" H 4050 1910 30  0000 C CNN
 F 2 "" H 4050 1800 60  0000 C CNN
@@ -120,9 +129,11 @@ F 3 "" H 4050 1800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR085
+L +3.3V-RESCUE-qrpamp #PWR085
 U 1 1 547256B9
 P 700 700
+AR Path="/547256B9" Ref="#PWR085"  Part="1" 
+AR Path="/5470F239/547256B9" Ref="#PWR085"  Part="1" 
 F 0 "#PWR085" H 700 660 30  0001 C CNN
 F 1 "+3.3V" H 700 810 30  0000 C CNN
 F 2 "" H 700 700 60  0000 C CNN
@@ -135,9 +146,11 @@ mcu_3v3
 Text HLabel 900  800  2    60   Input ~ 0
 mcu_gnd
 $Comp
-L +3.3V #PWR086
+L +3.3V-RESCUE-qrpamp #PWR086
 U 1 1 54725A58
 P 4200 4100
+AR Path="/54725A58" Ref="#PWR086"  Part="1" 
+AR Path="/5470F239/54725A58" Ref="#PWR086"  Part="1" 
 F 0 "#PWR086" H 4200 4060 30  0001 C CNN
 F 1 "+3.3V" H 4200 4210 30  0000 C CNN
 F 2 "" H 4200 4100 60  0000 C CNN
@@ -186,9 +199,11 @@ mcu_ant_sw
 Text HLabel 6500 3050 2    60   Output ~ 0
 mcu_amp_pwr_sw
 $Comp
-L +3.3V #PWR087
+L +3.3V-RESCUE-qrpamp #PWR087
 U 1 1 54833E0A
 P 10650 750
+AR Path="/54833E0A" Ref="#PWR087"  Part="1" 
+AR Path="/5470F239/54833E0A" Ref="#PWR087"  Part="1" 
 F 0 "#PWR087" H 10650 710 30  0001 C CNN
 F 1 "+3.3V" H 10650 860 30  0000 C CNN
 F 2 "" H 10650 750 60  0000 C CNN
@@ -197,9 +212,11 @@ F 3 "" H 10650 750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C39
+L CP1-RESCUE-qrpamp C39
 U 1 1 548452A0
 P 3050 3250
+AR Path="/548452A0" Ref="C39"  Part="1" 
+AR Path="/5470F239/548452A0" Ref="C39"  Part="1" 
 F 0 "C39" H 3100 3350 50  0000 L CNN
 F 1 "1u" H 3100 3150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3050 3250 60  0001 C CNN
@@ -208,9 +225,11 @@ F 3 "" H 3050 3250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C38
+L C-RESCUE-qrpamp C38
 U 1 1 54845340
 P 2750 3250
+AR Path="/54845340" Ref="C38"  Part="1" 
+AR Path="/5470F239/54845340" Ref="C38"  Part="1" 
 F 0 "C38" H 2750 3350 40  0000 L CNN
 F 1 ".01u" H 2756 3165 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 3100 30  0001 C CNN
@@ -219,9 +238,11 @@ F 3 "" H 2750 3250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR088
+L +3.3V-RESCUE-qrpamp #PWR088
 U 1 1 54845508
 P 2750 3450
+AR Path="/54845508" Ref="#PWR088"  Part="1" 
+AR Path="/5470F239/54845508" Ref="#PWR088"  Part="1" 
 F 0 "#PWR088" H 2750 3410 30  0001 C CNN
 F 1 "+3.3V" H 2750 3560 30  0000 C CNN
 F 2 "" H 2750 3450 60  0000 C CNN
@@ -232,9 +253,11 @@ $EndComp
 Entry Wire Line
 	4300 2200 4400 2100
 $Comp
-L C C37
+L C-RESCUE-qrpamp C37
 U 1 1 54845A82
 P 3150 2400
+AR Path="/54845A82" Ref="C37"  Part="1" 
+AR Path="/5470F239/54845A82" Ref="C37"  Part="1" 
 F 0 "C37" H 3150 2500 40  0000 L CNN
 F 1 ".1u" H 3156 2315 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3188 2250 30  0001 C CNN
@@ -344,9 +367,11 @@ F 3 "" H 700 800 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C31
+L C-RESCUE-qrpamp C31
 U 1 1 548C5B39
 P 6200 1600
+AR Path="/548C5B39" Ref="C31"  Part="1" 
+AR Path="/5470F239/548C5B39" Ref="C31"  Part="1" 
 F 0 "C31" H 6200 1700 40  0000 L CNN
 F 1 "4.7u" H 6206 1515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6238 1450 30  0001 C CNN
@@ -355,9 +380,11 @@ F 3 "" H 6200 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C30
+L C-RESCUE-qrpamp C30
 U 1 1 548C5F55
 P 5350 1500
+AR Path="/548C5F55" Ref="C30"  Part="1" 
+AR Path="/5470F239/548C5F55" Ref="C30"  Part="1" 
 F 0 "C30" H 5350 1600 40  0000 L CNN
 F 1 "4.7u" H 5356 1415 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5388 1350 30  0001 C CNN
@@ -382,9 +409,11 @@ SWDIO
 Text Label 4600 2650 0    60   ~ 0
 SWCLK
 $Comp
-L R R24
+L R-RESCUE-qrpamp R24
 U 1 1 548C7F6B
 P 6700 3750
+AR Path="/548C7F6B" Ref="R24"  Part="1" 
+AR Path="/5470F239/548C7F6B" Ref="R24"  Part="1" 
 F 0 "R24" V 6780 3750 40  0000 C CNN
 F 1 "50k" V 6707 3751 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6630 3750 30  0001 C CNN
@@ -393,9 +422,11 @@ F 3 "" H 6700 3750 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R25
+L R-RESCUE-qrpamp R25
 U 1 1 548C7FD3
 P 6700 3850
+AR Path="/548C7FD3" Ref="R25"  Part="1" 
+AR Path="/5470F239/548C7FD3" Ref="R25"  Part="1" 
 F 0 "R25" V 6780 3850 40  0000 C CNN
 F 1 "50k" V 6707 3851 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 6630 3850 30  0001 C CNN
@@ -404,9 +435,11 @@ F 3 "" H 6700 3850 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R26
+L R-RESCUE-qrpamp R26
 U 1 1 54C3F323
 P 3650 3250
+AR Path="/54C3F323" Ref="R26"  Part="1" 
+AR Path="/5470F239/54C3F323" Ref="R26"  Part="1" 
 F 0 "R26" V 3730 3250 40  0000 C CNN
 F 1 "10k" V 3657 3251 40  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" V 3580 3250 30  0001 C CNN
